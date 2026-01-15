@@ -14,18 +14,36 @@ body {
   display: flex;
   flex-direction: column;
   border-style: clear;
+  padding-top: 2rem;
 }
-
-header {
+.parent p {
+  font-size: 15px;
+}
+.parent header {
+  text-align: center;
   margin-bottom: 2rem;
+  border-style: clear;
 }
-
-main {
+.parent header h1 {
+  font-size: clamp(1.5rem, 5vw, 10rem);
+  font-weight: 200;
+}
+.parent header h1.bold {
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.parent main {
   display: flex;
   flex-direction: column;
 }
-
-.container {
+.parent main h2 {
+  color: hsl(234, 12%, 34%);
+}
+.parent main p {
+  color: hsl(212, 6%, 44%);
+}
+.parent main .container {
   height: clamp(15rem, 15vw, 25rem);
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -36,19 +54,15 @@ main {
   border-top-style: solid;
   border-width: 0.3rem;
 }
-
-#box1 {
+.parent main #box1 {
   border-color: hsl(180, 62%, 55%);
 }
-
-#box2 {
+.parent main #box2 {
   border-color: hsl(0, 78%, 62%);
 }
-
-#box3 {
+.parent main #box3 {
   border-color: hsl(34, 97%, 64%);
 }
-
-#box4 {
+.parent main #box4 {
   border-color: hsl(212, 86%, 64%);
 }/*# sourceMappingURL=styles.css.map */
