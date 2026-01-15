@@ -48,8 +48,7 @@ body {
   color: hsl(212, 6%, 44%);
 }
 .parent main .container {
-  height: clamp(17rem, 15vw, 25rem);
-  width: 311px;
+  max-width: 400px;
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding: 2rem;

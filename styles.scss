@@ -63,8 +63,7 @@ body {
         }
 
         .container {
-            height: clamp(17rem, 15vw, 25rem);
-            width: max(311px);
+            max-width: 400px;
             margin-top: 1rem;
             margin-bottom: 1rem;
             padding: 2rem;
