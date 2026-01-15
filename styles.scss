@@ -1,3 +1,8 @@
+@mixin flexDisplay() {
+    display: flex;
+    flex-direction: column;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,4 +10,21 @@
 }
 body {
     font-family: "Poppins";
+    padding: 2rem;
+}
+.parent {
+    @include flexDisplay();
+}
+header {
+    margin-bottom: 2rem;
+}
+main {
+    @include flexDisplay();
+}
+.container {
+    height: clamp(15rem, 15vw, 25rem);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    border-style: solid;
 }

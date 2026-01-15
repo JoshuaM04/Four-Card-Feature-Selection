@@ -6,4 +6,27 @@
 
 body {
   font-family: "Poppins";
+  padding: 2rem;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  height: clamp(15rem, 15vw, 25rem);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 2rem;
+  border-style: solid;
 }/*# sourceMappingURL=styles.css.map */
