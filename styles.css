@@ -13,6 +13,7 @@ body {
 .parent {
   display: flex;
   flex-direction: column;
+  align-items: center;
   border-style: clear;
   padding-top: 2rem;
 }
@@ -48,6 +49,7 @@ body {
 }
 .parent main .container {
   height: clamp(17rem, 15vw, 25rem);
+  width: 311px;
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding: 2rem;

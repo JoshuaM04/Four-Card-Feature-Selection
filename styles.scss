@@ -25,6 +25,7 @@ body {
 }
 .parent {
     @include flexDisplay();
+    align-items: center;
     border-style: clear;
     padding-top: 2rem;
 
@@ -63,6 +64,7 @@ body {
 
         .container {
             height: clamp(17rem, 15vw, 25rem);
+            width: max(311px);
             margin-top: 1rem;
             margin-bottom: 1rem;
             padding: 2rem;
