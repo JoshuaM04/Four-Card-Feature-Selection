@@ -85,6 +85,7 @@ body {
             }
         }
         #box1 {
+            height: 0%;
             border-color: $box-color-one;
         }
         #box2 {
@@ -94,7 +95,32 @@ body {
             border-color: $box-color-three;
         }
         #box4 {
+            height: 0%;
             border-color: $box-color-four;
+        }
+    }
+}
+
+@media (min-width: 1000px) {
+    main {
+        display: flex;
+        flex-direction: row !important;
+        
+        #box1 {
+            align-self: center;
+        }
+        #box2 {
+            margin-bottom: 2rem;
+        }
+        #box4 {
+            align-self: center;
+        }
+        .container {
+            min-width: 400px;
+        }
+        .special-container {
+            margin-left: 2rem;
+            margin-right: 2rem;
         }
     }
 }

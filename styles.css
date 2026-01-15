@@ -69,6 +69,7 @@ body {
   float: right;
 }
 .parent main #box1 {
+  height: 0%;
   border-color: hsl(180, 62%, 55%);
 }
 .parent main #box2 {
@@ -78,5 +79,29 @@ body {
   border-color: hsl(34, 97%, 64%);
 }
 .parent main #box4 {
+  height: 0%;
   border-color: hsl(212, 86%, 64%);
+}
+
+@media (min-width: 1000px) {
+  main {
+    display: flex;
+    flex-direction: row !important;
+  }
+  main #box1 {
+    align-self: center;
+  }
+  main #box2 {
+    margin-bottom: 2rem;
+  }
+  main #box4 {
+    align-self: center;
+  }
+  main .container {
+    min-width: 400px;
+  }
+  main .special-container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 }/*# sourceMappingURL=styles.css.map */
