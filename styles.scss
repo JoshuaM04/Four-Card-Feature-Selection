@@ -39,7 +39,7 @@ body {
         border-style: clear;
 
         h1 {
-            font-size: clamp(1.5rem, 5vw, 10rem);
+            font-size: clamp(1.5rem, 5vw, 2.2rem);
             font-weight: 200;
         }
         h1.bold {
@@ -102,6 +102,15 @@ body {
 }
 
 @media (min-width: 1000px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header {
+        height: 15rem;
+        max-width: 33rem;
+    }
     main {
         display: flex;
         flex-direction: row !important;
