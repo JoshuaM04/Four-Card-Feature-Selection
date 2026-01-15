@@ -85,7 +85,7 @@ body {
   border-color: hsl(212, 86%, 64%);
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 81.25rem) {
   body {
     display: flex;
     justify-content: center;
