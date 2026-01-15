@@ -4,6 +4,7 @@ $box-color-one: hsl(180, 62%, 55%);
 $box-color-two: hsl(0, 78%, 62%);
 $box-color-three: hsl(34, 97%, 64%);
 $box-color-four: hsl(212, 86%, 64%);
+$box-color-background: hsl(0, 0%, 100%);
 
 $header-text-color: hsl(234, 12%, 34%);
 $paragraph-text-color: hsl(212, 6%, 44%);
@@ -19,6 +20,7 @@ $paragraph-text-color: hsl(212, 6%, 44%);
     box-sizing: border-box;
 }
 body {
+    background-color: hsl(0, 0%, 97%);
     font-family: "Poppins";
     height: 100vh;
     padding: 2rem;
@@ -69,6 +71,7 @@ body {
             padding: 2rem;
             border-style: clear;
             border-radius: .5rem;
+            background-color: $box-color-background;
             box-shadow: 0px 1px 10px -2px $box-shadow-color;
             border-top-style: solid;
             border-width: .3rem;
